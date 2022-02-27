@@ -1,5 +1,4 @@
 import * as React from "react";
-import Article from "../components/Article";
 
 function Home() {
   return (
@@ -55,62 +54,26 @@ function Home() {
       </h2>
       <section className="grid grid-cols-2 grid-rows-13 gap-2">
         <h3 className="question">Getting Started</h3>
-        <Article
-          rowStart1="2"
-          rowStart2="3"
-          text1="create"
-          text2="Lorem Ipsum Dolor Sit Amet"
-        />
-        <Article
-          rowStart1="2"
-          rowStart2="3"
-          text1="update"
-          text2="Lorem Ipsum Dolor Sit Amet"
-        />
-        <Article
-          rowStart1="4"
-          rowStart2="5"
-          text1="download"
-          text2="Lorem Ipsum Dolor Sit Amet"
-        />
-        <Article
-          rowStart1="4"
-          rowStart2="5"
-          text1="customize"
-          text2="Lorem Ipsum Dolor Sit Amet"
-        />
+        <h2 className="link-big link row-start-2">Create</h2>
+        <p className="row-start-3 ml-6">Lorem Ipsum Dolor Sit Amet</p>
+        <h2 className="link-big link row-start-2">Update</h2>
+        <p className="row-start-3 ml-6">Lorem Ipsum Dolor Sit Amet</p>
+        <h2 className="link-big link row-start-4">Download</h2>
+        <p className="row-start-5 ml-6">Lorem Ipsum Dolor Sit Amet</p>
+        <h2 className="link-big link row-start-4">Customize</h2>
+        <p className="row-start-5 ml-6">Lorem Ipsum Dolor Sit Amet</p>
         <h3 className="question row-start-6">Other Options</h3>
-        <Article
-          rowStart1="7"
-          rowStart2="8"
-          text1="edit"
-          text2="Lorem Ipsum Dolor Sit Amet"
-        />
-        <Article
-          rowStart1="7"
-          rowStart2="8"
-          text1="edit other pages"
-          text2="Lorem Ipsum Dolor Sit Amet"
-        />
-        <Article
-          rowStart1="9"
-          rowStart2="10"
-          text1="edit entries"
-          text2="Lorem Ipsum Dolor Sit Amet"
-        />
+        <h2 className="link-big link row-start-7">Edit</h2>
+        <p className="row-start-8 ml-6">Lorem Ipsum Dolor Sit Amet</p>
+        <h2 className="link-big link row-start-7">Edit other Pages</h2>
+        <p className="row-start-8 ml-6">Lorem Ipsum Dolor Sit Amet</p>
+        <h2 className="link-big link row-start-9">Edit entries</h2>
+        <p className="row-start-10 ml-6">Lorem Ipsum Dolor Sit Amet</p>
         <h3 className="question row-start-11">Documentation</h3>
-        <Article
-          rowStart1="12"
-          rowStart2="13"
-          text1="support"
-          text2="Lorem Ipsum Dolor Sit Amet"
-        />
-        <Article
-          rowStart1="12"
-          rowStart2="13"
-          text1="contributors"
-          text2="Lorem Ipsum Dolor Sit Amet"
-        />
+        <h2 className="link-big link row-start-12">Edit entries</h2>
+        <p className="row-start-13 ml-6">Lorem Ipsum Dolor Sit Amet</p>
+        <h2 className="link-big link row-start-12">Contributors</h2>
+        <p className="row-start-13 ml-6">Lorem Ipsum Dolor Sit Amet</p>
       </section>
     </>
   );
