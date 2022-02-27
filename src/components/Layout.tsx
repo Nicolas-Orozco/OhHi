@@ -4,7 +4,7 @@ type LayoutProps = {
   children: React.ReactNode;
 };
 
-function Layout({ children }: LayoutProps) {
+export default function Layout({ children }: LayoutProps) {
   return (
     <div className="max-w-4xl mx-auto px-4 pt-2">
       <header className="mb-1">
@@ -13,7 +13,7 @@ function Layout({ children }: LayoutProps) {
         </h1>
       </header>
       <nav className="mb-6">
-        <ul className="flex justify-around items-center bg-blue-600 text-white font-semibold border-t-8 border-blue-900 cursor-pointer">
+        <ul className="flex justify-around items-center flex-wrap gap-5 bg-blue-600 text-white font-semibold border-t-8 border-blue-900 cursor-pointer">
           <li>Home</li>
           <li>News</li>
           <li>Create Journal</li>
@@ -27,4 +27,3 @@ function Layout({ children }: LayoutProps) {
     </div>
   );
 }
-export default Layout;
