@@ -7,11 +7,11 @@ _Incluso, puedes escoger otros idiomas! : [English](README.md), [Español](READM
 ## Objetivo:
 
 Usar TailwindCSS y un poco de Typescript para hacer un clon de, supongo  
-la página inicial de Live Journal, en los 2000s, en una noche.
+la página inicial de Live Journal, en los 2000, en una noche.
 
 ## Imagen guía
 
-![LiveJorunal](./misc/LiveJournal.jpg)
+![LiveJournal](./misc/LiveJournal.jpg)
 
 **Fuente: [Imagen de la Fuente](https://themeisle.com/blog/history-of-blogging/)**
 
