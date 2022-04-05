@@ -13,7 +13,7 @@ somewhere in the 2000s, in one night.
 
 ![LiveJorunal](./misc/LiveJournal.jpg)
 
-**Source: [Image of Source](https://themeisle.com/blog/history-of-blogging/)**
+**[Image of Source](https://themeisle.com/blog/history-of-blogging/)**
 
 ## Link
 
